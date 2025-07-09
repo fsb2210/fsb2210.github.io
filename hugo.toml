@@ -123,3 +123,7 @@ languageName = "English"
   [params.page]
     # whether to show the full text content in RSS
     rssFullText = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
