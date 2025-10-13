@@ -43,9 +43,7 @@ enableEmoji = true
     url = "/categories/"
     title = ""
 
-# Markup related configuration in Hugo
 [markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
     noClasses = false
 
