@@ -46,6 +46,9 @@ enableEmoji = true
 [markup]
   [markup.highlight]
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   defaultTheme = "dark"
@@ -86,8 +89,8 @@ enableEmoji = true
       social = true
       disclaimer = ""
     [params.home.posts]
-      enable = false
-      paginate = 2
+      enable = true
+      paginate = 5
       defaultHiddenFromHomePage = false
 
   [params.social]
