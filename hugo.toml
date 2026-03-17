@@ -185,63 +185,63 @@ enableEmoji = true
         Email= "aoszbl@proton.me"
         RSS = true
 
-  [languages.es]
-    weight = 2
-    languageCode = "es"
-    languageName = "Español"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.es.menu]
-      [[languages.es.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Artículos"
-        url = "/posts/"
-        title = ""
-      [[languages.es.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Etiquetas"
-        url = "/tags/"
-        title = ""
-      [[languages.es.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categorías"
-        url = "/categories/"
-        title = ""
-    [languages.es.params]
-      [languages.es.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.es.params.search.algolia]
-          index = "index"
-          appID = "GZT24PWKNT"
-          searchKey = "634ab679e825b815de2663de38908f9d"
-      [languages.es.params.home]
-        rss = 10
-        [languages.es.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          # avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "f"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.es.params.social]
-        GitHub = "fsb2210"
-        Email= "aoszbl@proton.me"
-        RSS = true
+  # [languages.es]
+  #   weight = 2
+  #   languageCode = "es"
+  #   languageName = "Español"
+  #   hasCJKLanguage = false
+  #   copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  #   [languages.es.menu]
+  #     [[languages.es.menu.main]]
+  #       weight = 1
+  #       identifier = "posts"
+  #       pre = ""
+  #       post = ""
+  #       name = "Artículos"
+  #       url = "/posts/"
+  #       title = ""
+  #     [[languages.es.menu.main]]
+  #       weight = 2
+  #       identifier = "tags"
+  #       pre = ""
+  #       post = ""
+  #       name = "Etiquetas"
+  #       url = "/tags/"
+  #       title = ""
+  #     [[languages.es.menu.main]]
+  #       weight = 3
+  #       identifier = "categories"
+  #       pre = ""
+  #       post = ""
+  #       name = "Categorías"
+  #       url = "/categories/"
+  #       title = ""
+  #   [languages.es.params]
+  #     [languages.es.params.search]
+  #       enable = true
+  #       type = "algolia"
+  #       contentLength = 4000
+  #       placeholder = ""
+  #       maxResultLength = 10
+  #       snippetLength = 50
+  #       highlightTag = "em"
+  #       absoluteURL = false
+  #       [languages.es.params.search.algolia]
+  #         index = "index"
+  #         appID = "GZT24PWKNT"
+  #         searchKey = "634ab679e825b815de2663de38908f9d"
+  #     [languages.es.params.home]
+  #       rss = 10
+  #       [languages.es.params.home.profile]
+  #         enable = true
+  #         gravatarEmail = ""
+  #         # avatarURL = "/images/avatar.png"
+  #         title = ""
+  #         subtitle = "f"
+  #         typeit = true
+  #         social = true
+  #         disclaimer = ""
+  #     [languages.es.params.social]
+  #       GitHub = "fsb2210"
+  #       Email= "aoszbl@proton.me"
+  #       RSS = true
